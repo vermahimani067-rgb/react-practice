@@ -14,9 +14,13 @@ input {
 }
 
 .kg-button {
-    min-width: 80px;
+    min-width: 100px;
 }
 
 .kg-row {
     margin: 10px 5px;
+}
+
+.todo-container {
+    text-align: left;
 }

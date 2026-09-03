@@ -6,9 +6,12 @@ import './App.css';
 
 function App() {
   return <center
-    className="todo-container">
+    className="app-container">
     <AppName />
-    <AddTodo />
+    
+    <div className="todo-container">
+      <AddTodo />
+    </div>
     <div className="items-container">
       <TodoItem1 />
       <TodoItem2 />
